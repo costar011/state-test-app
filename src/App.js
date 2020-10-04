@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Navigation from "./Layouts/Navigation";
 import Want from "./Screens/Want";
 import Sleep from "./Screens/Sleep";
+import Footer from "./Layouts/Footer";
 import Button from "./Button";
 
 class App extends React.Component {
@@ -14,6 +15,8 @@ class App extends React.Component {
         <Route path="/want" component={Want}></Route>
 
         <Route path="/sleep" component={Sleep}></Route>
+
+        <Route path="/" component={Footer}></Route>
       </div>
     );
   }
