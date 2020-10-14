@@ -16,6 +16,10 @@ class Navigation extends React.Component {
             <li>
               <NavLink to="/sleep">sleep</NavLink>
             </li>
+
+            <li>
+              <NavLink to="/mm01">mm01</NavLink>
+            </li>
           </li>
         </ul>
       </div>
